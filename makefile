@@ -1,5 +1,5 @@
 all:
-	${MAKE}  hw8
+	make hw8
 hw8: hw8.o
 	g++ -g -Wall -o hw8 hw8.o
 hw8.o: hw8.cpp
